@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lorem Ipsum</title>
+
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        outline: none;
+        border: none;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .header {
+        background-color: #222;
+        color: rgba(255, 255, 255, 0.5);
+      }
+
+      .header__wrapper {
+        padding: 1rem 5rem;
+        font-size: 1.25rem;
+      }
+
+      .header__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 700;
+      }
+
+      .header__title {
+        font-size: 2rem;
+      }
+
+      .header__login {
+        padding: 0.5rem 1rem;
+        color: inherit;
+      }
+
+      .header__navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .header__navbar__item {
+        padding: 0.5rem 1rem;
+        color: inherit;
+      }
+
+      .header__login:hover,
+      .header__navbar__item:hover {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrapper">
+        <div class="header__top">
+          <h1 class="header__title">Lorem Ipsum</h1>
+          <a href="#" class="header__login">Login</a>
+        </div>
+        <nav class="header__navbar">
+          <a href="#" class="header__navbar__item">Home</a>
+          <a href="#" class="header__navbar__item">Profile</a>
+          <a href="#" class="header__navbar__item">Contact Us</a>
+          <a href="#" class="header__navbar__item">About Us</a>
+        </nav>
+      </div>
+    </header>
+  </body>
+</html>
